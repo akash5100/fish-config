@@ -11,7 +11,7 @@ edit .bashrc and add exec fish at end.
 restart shell and paste the files to the dir:
 
     home/user/.config/fish/
-        with cd home/akash/.config/fish/
+        example: dolphin home/akash/.config/fish/
 
 to alias
 
@@ -30,5 +30,6 @@ install lsd a better replacement for ls
 
     https://github.com/Peltoche/lsd
     
+    sudo pacman -S lsd
     alias ls='lsd'
     alias lst='lsd --tree'
