@@ -40,6 +40,7 @@ install ranger a better terminal browser
     sudo pacman -S ranger
 
 install figlet font
+
     git clone https://github.com/xero/figlet-fonts
     sudo mv figlet-fonts/* /usr/share/figlet/fonts
 
